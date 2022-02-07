@@ -1,0 +1,17 @@
+# Name of the workflow
+name: learn-github-actions
+
+# Name of the event when the workflow get triggered
+on: [push]
+
+# Define the job based on events
+jobs: 
+  check-bats-version: 
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with: 
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
