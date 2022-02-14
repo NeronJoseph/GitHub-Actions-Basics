@@ -1,4 +1,4 @@
-# Name of the workflow
+# Name of the workflow - (Optional)
 name: learn-github-actions
 
 # Name of the event when the workflow get triggered
