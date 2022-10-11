@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: workflow-examples/environment-variables/workflow-with-environment-variables.yml
+  checksum: de514703e1eb5482b8583d3b11c79b8c7fae036cc3513679df7c3465a1fceb3f
+- filename: workflow-examples/expressions/env-variable-sample.yml
+  checksum: 4613b44887692a54f640d1509f68fa37a3db35d73126a7317db80f0fb2ea050a
+- filename: workflow-examples/expressions/environment-variable.yml
+  checksum: b0d47434189ac6d13f8fd0a98772f46892a78f2c045863991e05a77d35d5e5a4
